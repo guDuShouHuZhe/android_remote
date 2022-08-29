@@ -162,9 +162,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                             if(rotation==0||rotation==2){
                               b=Bitmap.createBitmap(b,0,0,w,h,m,true);
                             }else if(rotation==1||rotation==3){
-                            
-                              b=Bitmap.createBitmap(b,0,656,w,607,m,true);
-                             // b=Bitmap.createBitmap(b,0,656,w,1263,m,true);
+                              int tmp=w*w/h;
+                              b=Bitmap.createBitmap(b,0,(h-tmp)/2,w,tmp,m,true);
+                             //这里有个巨坑tmp代表的是截取后位图的实际高度，并非前位图要截到的位置高度
                             }
                            // Toast.makeText(getApplication(), ""+w+"|"+h, Toast.LENGTH_SHORT).show();
                             ByteArrayOutputStream bi=new ByteArrayOutputStream();
