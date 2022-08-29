@@ -1,4 +1,5 @@
-#  远程协助
-这是应用于安卓端的远程协助例子，它包
-含clien和service两个包，客户端在安卓
+# 远程协助
+这是应用于安卓端的远程协助例子，它包含
+applicationapplication2_clien_clien和
+application_service两个包，客户端在安卓
 12和服务端在安卓7上已测试正常

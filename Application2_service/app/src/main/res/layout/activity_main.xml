@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text=""
+		android:id="@+id/activitymainTextView2"
+		android:textSize="20sp"
+		android:gravity="left"
+		android:layout_alignParentTop="true"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/activitymainTextView1"
+		android:layout_centerInParent="true"
+		android:gravity="center"
+		android:textSize="20sp"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="启动服务"
+		android:id="@+id/activitymainButton1"
+		android:layout_marginTop="40dp"
+		android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
+

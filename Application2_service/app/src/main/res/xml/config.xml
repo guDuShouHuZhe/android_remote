@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/myaccess"
+
+    android:accessibilityEventTypes="typeViewClicked|typeViewFocused|typeWindowStateChanged|typeAllMask"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:notificationTimeout="50"
+    android:settingsActivity="com.mycompany.myapp2.qdactivity"
+    android:accessibilityFlags="flagRetrieveInteractiveWindows|flagReportViewIds|flagIncludeNotImportantViews|flagRequestFilterKeyEvents"
+    android:canRequestFilterKeyEvents="true"
+    android:canRetrieveWindowContent="true"
+    android:canPerformGestures="true"/>
+<!--android:packageNames="com.tencent.mm|com.kuaishou.nebulacom.ss.android.ugc.aweme.lite"-->
+<!--在设置里面描述无障碍服务的名字-->
+<!--packageName 需要监听的包名不写代表监听所有事件的包-->
+<!--监听事件类型typeAllMask为所有类型-->
+<!--反馈类型有声音触觉视觉反馈-->
+<!--两个相同事件通知的间隔时间-->
+<!--设置可以动态修改服务的类-->
+<!--视图节点标志可以用来过滤不重要的节点-->
+<!--request请求监控键盘事件-->
+<!--retrieve检索窗口内容-->
+<!--执行手势-->
