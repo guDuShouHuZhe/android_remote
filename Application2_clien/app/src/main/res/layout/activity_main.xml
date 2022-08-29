@@ -11,6 +11,7 @@
 		android:layout_alignParentTop="true"
 		android:layout_width="match_parent"
 		android:ems="10"
+		android:hint="(请按此格式填入否则程序会崩溃)192.xx.xx.xx;8888"
 		android:layout_height="wrap_content"/>
 
 	<Button
